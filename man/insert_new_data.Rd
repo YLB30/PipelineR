@@ -4,7 +4,7 @@
 \alias{insert_new_data}
 \title{Insert new data into data_sp500, avoiding duplicates.}
 \usage{
-insert_new_data(new_data, con, unique_cols = c("symbol", "date"))
+insert_new_data(new_data, con, schema = "student_yves")
 }
 \arguments{
 \item{new_data}{Un tibble/data.frame avec les colonnes symbol, date (PK supposée), et autres colonnes.}
